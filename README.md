@@ -94,6 +94,45 @@ After you have done this, open up IIS again as an admin and register PHP from wi
 <p>
 </p>
 <p>
-After you have done this, open up IIS again as an admin and register PHP from within IIS. We can now install osTicket v1.15.8. Go back to the installation files folder and download it from there. After this, extract and copy the "upload" folder to c:\inetpub\wwwroot.
+Now go back to IIS, go sites -> default -> osTicket, and then on the right hand side of the page, click "Browse *.80". You will then see the osTicket installer but also notice that some extensions aren't enabled. You will need to enable these. Go back to IIS, sites --> Default --> osTicket, then double click PHP manager and click "Enable or disable an extension". Go ahead and enable php_imap.dll, php_intl.dll, and php_opcache.dll. After doing this, refresh the osTicket site and see the changes.
+
+<img src="https://i.imgur.com/CklEWno.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/U2W6jtQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/riqDgy3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/CWeTIA5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 </p>
 <br />
+
+
+<p>
+</p>
+<p>
+After you have done this, go back to the C drive and rename the folder from ost-sampleconfig.php to ost-config.php. After you have done this, assign some permissions, disable inheritance and then go into new permissions and ensure to include everyone. After this, continue setting up the osTicket in the browser. We will now go back to the installation files and download and install HeidiSQL, and then proceed to create a database called "osTicket". Continue setting up the osTicket in the browser, and make sure to write down your username and password and then click install now.
+
+<img src="https://i.imgur.com/x5DswRZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/lqcm15U.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/WN0buVt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/n5YlSMa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/xUEXBkW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/1kprTcx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/mS4E8UT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+</p>
+<br />
+
+
+<p>
+</p>
+<p>
+
+Congrats! Hopefully if you have followed everything it has been installed with no errors. You can go to your helpdesk login page, and also see the end users page. 
+
+<img src="https://i.imgur.com/mnJdo8L.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/r5A20AW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/aC2bQR1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+</p>
+<br />
+
